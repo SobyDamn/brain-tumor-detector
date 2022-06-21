@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <script src="{{ url_for('static', filename = 'script.js') }}"></script>
+        <link rel="stylesheet" href="{{ url_for('static', filename = 'style.css') }}">
+    </head>
     <body>
 
     <h1>Brain Tumor Detector</h1>
@@ -7,7 +11,7 @@
 
     <form method="POST" action="result" enctype="multipart/form-data">
         
-        <input placeholder="Upload brain scan in jpg" type="file" name="scan_file" accept="image/jpeg"
+        <input id="fileInputBar" placeholder="Upload brain scan in jpg" type="file" name="scan_file" accept="image/jpeg"/>
         <br>
         <button type="submit">Submit</button>
     </form>
