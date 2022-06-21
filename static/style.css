@@ -1,3 +1,26 @@
-h1 {
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #C2DED1;
+}
+
+.container {
     text-align: center;
+}
+
+#btn {
+    margin-top: 20px;
+    padding: 5px 8px;
+    border-radius: 20px;
+    background-color: #06283D;
+    color: white;
+    margin: 20 20;
+}
+
+#task {
+    margin-top: 20px;
+}
+
+#fileInputBar {
+    margin-top: 20px;
 }

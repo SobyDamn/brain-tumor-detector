@@ -1,23 +1,34 @@
 <!DOCTYPE html>
 <html>
-    <body>
+
+<body>
 
     <h1>Brain Tumor Detector</h1>
     <label>Uploaded Image:</label>
     <br>
-    <img src="{{data.uploaded_image}}">
-    </img>
-    <br>
-    <h2><label>Result: </label><b>{{ data.result }}</b></h2>
-    <h4>About</h4>
-    {{data.about}}
+
+    <img src="{{url_for('static', filename = 'image(1).jpg')}}"></img>
+    <label>Tumor Name</label>
+    <p>
+        about
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur facere, minima, cumque velit sint repellat
+        sequi quam maiores modi rerum ipsum quae. Ducimus nesciunt itaque nihil perspiciatis iste voluptatum voluptates.
+    </p>
     <ul>
-        {% for prediction in data.predictions %}
-            <li>
-                {{ prediction.name }} : {{ prediction.probability }} %
-            </li>
-        {% endfor %}
+        <li>
+            Tumor Name 1 : 91%
+        </li>
+        <li>
+            Tumor Name 2: 91%
+        </li>
+        <li>
+            Tumor Name 3 : 91%
+        </li>
+        <li>
+            Tumor Name 4 : 91%
+        </li>
     </ul>
-    
-    </body>
+
+</body>
+
 </html>
