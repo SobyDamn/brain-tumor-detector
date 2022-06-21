@@ -1,2 +1,4 @@
 frt-azure-env/
 *.ipynb
+test-image/
+__pycache__/
