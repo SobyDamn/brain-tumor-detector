@@ -14,3 +14,18 @@
     </ul> -->
  */
 console.log("hello")
+function displayImage(input) {
+
+    const imageCont = document.getElementById("selectedImageFile");
+    imageCont.style.display = "inline";
+    var reader = new FileReader();
+    reader.onload = function (e) {
+        document.querySelector("#selectedImageFile").setAttribute("src", e.target.result);
+    };
+    reader.readAsDataURL(input.files[0]);
+}
+
+function selectFile() {
+    const fileSelector = document.getElementById("fileInputBar");
+    fileSelector.click();
+}
