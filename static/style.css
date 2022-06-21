@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    background-color: #C2DED1;
+    background-color: #DBDFFD;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -9,11 +9,22 @@
     text-align: center;
 }
 
+#mainHeading {
+    padding: 18px;
+    background-color: #242F9B;
+    color: white;
+}
+
+#mainHeading h1 {
+    background: none;
+}
+
 #btn {
     margin-top: 20px;
     padding: 8px 15px;
     border-radius: 10px;
-    background-color: #06283D;
+    border: 1px solid #242F9B;
+    background-color: #242F9B;
     color: white;
     margin: 20 20;
     font-size: large;
@@ -22,10 +33,28 @@
 
 #selectedImageFile {
     object-fit: scale-down;
-    width: 250px;
-    height: 250px;
+    max-width: 400px;
     border-radius: 5px;
-    padding: 15px;
+    padding: 0;
+}
+
+form {
+    background-color: #646FD4;
+    border: 2px solid #DBDFFD;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 50px;
+    margin: 10px;
+}
+
+#fileSelectorBTN {
+    font-size: larger;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid #646FD4;
+    border-radius: 10px;
+    font-weight: bolder;
+
 }
 
 #task {
