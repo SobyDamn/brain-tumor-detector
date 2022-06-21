@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #DBDFFD;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#resHeading {
+    padding: 18px;
+    background-color: #242F9B;
+    color: white;
+    text-align: center;
+}
+
+#resHeading h1 {
+    background: none;
+}
+
+.wrap {
+    display: flex;
+    min-height: 400px;
+}
+
+.fleft {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.fright {
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    border-right: 1px solid #bcbcbc;
+}
+
+img {
+    object-fit: scale-down;
+}
+
+#aboutTumor {
+    margin: 20px;
+    margin-left: 5px;
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+#resHeading h1 {
+    font-size: xx-large;
+
+}
+
+.tumorNameLabel {
+    font-size: x-large;
+    font-weight: 700;
+    color: #4e4e4e;
+    align-items: center;
+    margin: auto;
+    padding: 5px;
+    background: none;
+    margin-top: 10px;
+}
+
+td {
+    font-size: large;
+    padding-right: 20px;
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+
+
+table tr:first-of-type {
+    color: rgb(128, 201, 18) !important;
+}
+
+table {
+    color: rgb(123, 24, 24);
+}
+
+.footer {
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #242F9B;
+    text-align: center;
+}

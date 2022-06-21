@@ -1,33 +1,82 @@
 <!DOCTYPE html>
 <html>
 
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'style_res.css') }}" </head>
+
 <body>
 
-    <h1>Brain Tumor Identifier</h1>
-    <label>Uploaded Image:</label>
-    <br>
+    <div id="resHeading">
+        <h1>Brain Tumor Identifier</h1>
+    </div>
+    <div class="wrap">
 
-    <img src="{{url_for('static', filename = 'image(1).jpg')}}"></img>
-    <label>Tumor Name</label>
-    <p>
-        about
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur facere, minima, cumque velit sint repellat
-        sequi quam maiores modi rerum ipsum quae. Ducimus nesciunt itaque nihil perspiciatis iste voluptatum voluptates.
-    </p>
-    <ul>
-        <li>
-            Tumor Name 1 : 91%
-        </li>
-        <li>
-            Tumor Name 2: 91%
-        </li>
-        <li>
-            Tumor Name 3 : 91%
-        </li>
-        <li>
-            Tumor Name 4 : 91%
-        </li>
-    </ul>
+        <div class="fright">
+            <h1 class="tumorNameLabel"><u>Tumor Name</u></h1>
+            <p id="aboutTumor">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur facere, minima, cumque velit sint
+                repellat
+                sequi quam maiores modi rerum ipsum quae. Ducimus nesciunt itaque nihil perspiciatis iste voluptatum
+                voluptates.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur facere, minima, cumque velit sint
+                repellat
+                sequi quam maiores modi rerum ipsum quae. Ducimus nesciunt itaque nihil perspiciatis iste voluptatum
+                voluptates.
+            </p>
+            <table>
+                <tr>
+                    <td>
+                        Tumor Name 1
+                    </td>
+                    <td>
+                        98%
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Tumor Name 2
+                    </td>
+                    <td>
+                        98%
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Tumor Name 3
+                    </td>
+                    <td>
+                        98%
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Tumor Name 4
+                    </td>
+                    <td>
+                        98%
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="fleft">
+            <br>
+            <img src="{{url_for('static', filename = 'image(1).jpg')}}" style="max-width: 350px;max-height:300px"></img>
+            <div style="text-align:center;">
+                <label class="tumorNameLabel">Tumor Name</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <!-- <button href="../">Home</button> -->
+        <a href="../" style="background: none; color:white">Home</a>
+    </div>
+
+
+
+
+
+
 
 </body>
 
