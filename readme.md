@@ -39,3 +39,9 @@ Types of glioma include:
 1.Astrocytomas, including astrocytoma, anaplastic astrocytoma and glioblastoma
 2.Ependymomas, including anaplastic ependymoma, myxopapillary ependymoma and subependymoma
 3.Oligodendrogliomas, including oligodendroglioma, anaplastic oligodendroglioma and anaplastic oligoastrocytoma
+
+
+## Contributors
+
+[Sritabh Priyadarshi](https://github.com/SobyDamn)
+[Anshumali Bhardwaj](https://github.com/anshu-bit)
