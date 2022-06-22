@@ -48,9 +48,9 @@ ENDPOINT = "https://tumorpredictor.cognitiveservices.azure.com/"
 #Keys
 prediction_key = "5d7b521209884f01bfd402c49c343e48"
 prediction_resource_id = "/subscriptions/d06e41e2-ee01-4888-a67b-3b8bdcff01a1/resourceGroups/FRT-Project"
-url = "https://centralindia.api.cognitive.microsoft.com/customvision/v3.0/Prediction/220fce72-9221-425c-917f-6778d57e30a6/classify/iterations/Iteration1/image"
+url = "https://centralindia.api.cognitive.microsoft.com/customvision/v3.0/Prediction/220fce72-9221-425c-917f-6778d57e30a6/classify/iterations/Iteration2/image"
 
-publish_iteration_name = "Iteration1"
+publish_iteration_name = "Iteration2"
 project_id = "220fce72-9221-425c-917f-6778d57e30a6"
 
 
