@@ -12,57 +12,28 @@
     <div class="wrap">
 
         <div class="fright">
-            <h1 class="tumorNameLabel"><u>Tumor Name</u></h1>
+            <h1 class="tumorNameLabel"><u>{{ data.result }}</u></h1>
             <p id="aboutTumor">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur facere, minima, cumque velit sint
-                repellat
-                sequi quam maiores modi rerum ipsum quae. Ducimus nesciunt itaque nihil perspiciatis iste voluptatum
-                voluptates.
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur facere, minima, cumque velit sint
-                repellat
-                sequi quam maiores modi rerum ipsum quae. Ducimus nesciunt itaque nihil perspiciatis iste voluptatum
-                voluptates.
+                {{data.about}}
             </p>
             <table>
+                {% for prediction in data.predictions %}
                 <tr>
                     <td>
-                        Tumor Name 1
+                        {{ prediction.name }}
                     </td>
                     <td>
-                        98%
+                        {{ prediction.probability }}%
                     </td>
                 </tr>
-                <tr>
-                    <td>
-                        Tumor Name 2
-                    </td>
-                    <td>
-                        98%
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Tumor Name 3
-                    </td>
-                    <td>
-                        98%
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Tumor Name 4
-                    </td>
-                    <td>
-                        98%
-                    </td>
-                </tr>
+                {% endfor %}
             </table>
         </div>
         <div class="fleft">
             <br>
-            <img src="{{url_for('static', filename = 'image(1).jpg')}}" style="max-width: 350px;max-height:300px"></img>
+            <img src="{{data.uploaded_image}}" style="max-width: 350px;max-height:300px"></img>
             <div style="text-align:center;">
-                <label class="tumorNameLabel">Tumor Name</label>
+                <label class="tumorNameLabel">{{ data.result }}</label>
             </div>
         </div>
     </div>
@@ -73,7 +44,7 @@
     <!-- </div>  -->
 
 
-    <a href="../" style="background: none; color:#242F9B">Home</a>
+    <a href="../" style="background: none; color:#242F9B; padding-left: 5px;">Home</a>
 
 
 
