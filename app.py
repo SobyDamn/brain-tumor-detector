@@ -37,7 +37,7 @@ def result():
         data['about'] = classifier.tumors[result]['about']
         data["predictions"] = []
         for key,value in predictions.items():
-            data["predictions"].append({'name':key,'probability':round(value,2)})
+            data["predictions"].append({'name':classifier.tumors[key]['name'],'probability':round(value,2)})
 
         return render_template("result.html",data = data)
     return "Forbidden Request"
