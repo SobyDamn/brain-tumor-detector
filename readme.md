@@ -4,7 +4,7 @@ The project allows anyone with brain scans in image format to check whether it c
 The Brain Tumor Identifier uses AI classifier which is trained on Brain Tumor Classification dataset to detect for the type of tumor in brain scans.
 The trained model is connected through the web app using flask. Creating a simple web interface allows user to use the service and view the results with ease.
 
-
+Deployed link: [Click Here](linktoproject.com)
 
 
 ## Types
