@@ -20,7 +20,7 @@
             <p style="background: none; color:white;" id="task">Select brain scans image to be analyzed.</p>
             <button id="fileSelectorBTN" onclick="selectFile()" type="button">Select File</button>
             <input style="display:none;" id="fileInputBar" onchange="displayImage(this)"
-                placeholder="Upload brain scan in jpg" type="file" name="scan_file" accept="image/jpeg" />
+                placeholder="Upload brain scan in jpg" type="file" name="scan_file" accept="image/jpeg" oninvalid="alert('Please select brain scan image to analyze!');" required/>
             <br>
             <button id="btn" type="submit">Analyze</button>
         </form>
