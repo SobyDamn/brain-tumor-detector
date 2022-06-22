@@ -11,7 +11,7 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/result',methods = ['POST','GET'])
+@app.route('/result',methods = ['POST'])
 def result():
     if request.method == 'POST':
         #get image from form data
@@ -40,8 +40,8 @@ def result():
             data["predictions"].append({'name':key,'probability':round(value,2)})
 
         return render_template("result.html",data = data)
-    #return "Forbidden Request"
-    return render_template("result.html")
+    return "Forbidden Request"
+    #return render_template("result.html")
 
 
 
