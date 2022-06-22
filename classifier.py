@@ -14,7 +14,7 @@ tumors = {
     "meningioma_tumor":{
         "name": "Meningioma",
         "about": """
-                A meningioma is a tumor that arises from the meninges — the membranes that surround the brain and spinal cord. Although not technically a brain tumor, it is included in this category because it may compress or squeeze the adjacent brain, nerves and vessels. Meningioma is the most common type of tumor that forms in the head.Meningiomas occur more commonly in women and are often discovered at older ages, but they may occur at any age.<br>
+                A meningioma is a tumor that arises from the meninges — the membranes that surround the brain and spinal cord. Although not technically a brain tumor, it is included in this category because it may compress or squeeze the adjacent brain, nerves and vessels. Meningioma is the most common type of tumor that forms in the head.Meningiomas occur more commonly in women and are often discovered at older ages, but they may occur at any age.\n
                 Because most meningiomas grow slowly, often without any significant signs and symptoms, they do not always require immediate treatment and may be monitored over time.
                 """
     },
@@ -32,12 +32,12 @@ tumors = {
                 Glioma is a type of tumor that occurs in the brain and spinal cord. Gliomas begin in the gluey supportive cells (glial cells) that surround nerve cells and help them function.
                 Three types of glial cells can produce tumors. Gliomas are classified according to the type of glial cell involved in the tumor, as well as the tumor's genetic features, which can help predict how the tumor will behave over time and the treatments most likely to work.A glioma can affect your brain function and be life-threatening depending on its location and rate of growth.
                 Types of glioma include:
-                <br>
-                <br>
+                \n
+                \n
 
-                1.Astrocytomas, including astrocytoma, anaplastic astrocytoma and glioblastoma<br>
-                2.Ependymomas, including anaplastic ependymoma, myxopapillary ependymoma and subependymoma<br>
-                3.Oligodendrogliomas, including oligodendroglioma, anaplastic oligodendroglioma and anaplastic oligoastrocytoma<br>
+                1.Astrocytomas, including astrocytoma, anaplastic astrocytoma and glioblastoma\n
+                2.Ependymomas, including anaplastic ependymoma, myxopapillary ependymoma and subependymoma\n
+                3.Oligodendrogliomas, including oligodendroglioma, anaplastic oligodendroglioma and anaplastic oligoastrocytoma\n
                 """
     }
 
